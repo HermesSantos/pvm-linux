@@ -12,7 +12,7 @@ Listing Available Versions: View a list of PHP versions installed on your system
 Clone the repository:
 https://github.com/HermesSantos/pvm-linux
 
-Move the code to /usr/bin/pvm
+Move the code to /usr/local/bin/pvm
 
 Make it executable
 sudo chmod +x /usr/local/bin/pvm
