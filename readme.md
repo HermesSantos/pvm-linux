@@ -1,12 +1,14 @@
 Overview
-PHP Version Manager for  (PVM)
+
+PHP Version Manager for Unix (PVM)
 Your PHP Version Manager is a command-line tool designed to simplify the management of PHP versions on your system. It allows you to switch between different PHP versions effortlessly.
 
 Features
 Easy Version Switching: Quickly switch between installed PHP versions.
 Listing Available Versions: View a list of PHP versions installed on your system.
 
-Installation
+1 - Installation
+
 Clone the repository:
 https://github.com/HermesSantos/pvm-linux
 
