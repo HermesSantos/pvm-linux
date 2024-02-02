@@ -3,10 +3,11 @@
 
 flag="$1"
 php_version="$2"
+
 arguments="list, -l, use [PHP_Version], --help, -h"
 directory="/usr/bin"
 update_alternatives="sudo update-alternatives --set php /usr/bin/php$php_version"
-actual_verison="1.0.0"
+actual_verison="PVM - PHP Version Manager\n 1.0.0"
 
 list_php_versions() {
 	ls $directory | grep -oP 'php\d+\.\d+' | sed 's/php//'
