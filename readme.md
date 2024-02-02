@@ -20,7 +20,7 @@ sudo chmod +x /usr/local/bin/pvm
 Verify if PVM is working properly
 pvm --version or pvm -v
 
-Usage
+2 - Usage
 
 Listing Installed PHP Versions
 pvm list
