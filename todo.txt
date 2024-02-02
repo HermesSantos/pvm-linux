@@ -6,4 +6,5 @@ sudo chmod +x /usr/local/bin/pvm
 
 ---------------------------------------
 install phps versions
+remove phps versions
 

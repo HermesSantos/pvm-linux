@@ -6,6 +6,7 @@ php_version="$2"
 arguments="list, -l, use [PHP_Version], --help, -h"
 directory="/usr/bin"
 update_alternatives="sudo update-alternatives --set php /usr/bin/php$php_version"
+actual_verison="1.0.0"
 
 list_php_versions() {
 	ls $directory | grep -oP 'php\d+\.\d+' | sed 's/php//'
@@ -17,6 +18,10 @@ verify_flags() {
 		echo $warn_no_args
 	elif [ "$flag" = "-h" ]; then
 		echo "$arguments"
+	elif [ "$flag" = "-v" ]; then
+		echo "$actual_verison"
+	elif [ "$flag" = "--version" ]; then
+		echo "$actual_verison"
 	elif [ "$flag" = "--help" ]; then
 		echo "$arguments"
 	elif [ "$flag" = "list" ]; then
