@@ -1,10 +1,12 @@
-how to it on global
+how to put it on global
 sudo mv pvm.sh /usr/local/bin/pvm
 
 make it executable
 sudo chmod +x /usr/local/bin/pvm
 
 ---------------------------------------
-install phps versions
+teste install phps versions
 remove phps versions
 
+---------------------------------------
+change the ifs for case statement
